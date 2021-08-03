@@ -54,23 +54,26 @@ header::before {
   content: "";
   border-radius: 50px;
   position: absolute;
-  width: 28px;
-  height: 58px;
-  right: 116px;
-  border: 3px solid var(--Main-Color-Grey-Battleship);
-  top: 200px;
+  width: 18px;
+  height: 38px;
+  right: 122px;
+  border: 2px solid var(--Main-Color-Grey-Battleship);
+  top: 193px;
+  animation-name: swip-down, hide-in-down;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 header::after {
   content: "";
   border-radius: 50%;
-  width: 4px;
-  top: 206px;
+  width: 1px;
+  top: 220px;
   background-color: var(--Main-Color-Orange-Aerospace);
-  right: 128px;
-  height: 4px;
+  right: 132px;
+  height: 12px;
   position: absolute;
-  border: 3px solid transparent;
   animation-name: swip-down, hide-in-down;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -226,7 +229,7 @@ header .nav-bar .continer ul .coran-link::before {
 header .nav-bar .continer ul .coran-link a:hover ul li {
   filter: brightness(1.2);
 }
-header .nav-bar .continer ul .coran-link a:hover {
+header .nav-bar .continer ul .coran-link > a:hover {
   color: orangered;
   filter: brightness(1.2);
 }
@@ -364,13 +367,13 @@ header .header-body .continer img {
     margin-bottom: 30px;
   }
   header::before {
-    display: none;
+    right: 25px;
+    top: 167px;
   }
   header::after {
-    right: 33px;
-    width: 5px;
-    height: 5px;
+    right: 35px;
     top: 194px;
+    background-color: orangered;
   }
 }
 @media (max-width: 558px) {
@@ -585,6 +588,10 @@ h2 {
 }
 
 /* End Fast Listen  */
+
+/* Start Blog */
+
+/* End Blog */
 
 /* Start Footer  */
 footer {
