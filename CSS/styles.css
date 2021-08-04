@@ -637,34 +637,34 @@ h2 {
 
 .blog .continer .one {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/coran-zoom.jpg);
+    url(./Images/images/coran-zoom.jpg);
 }
 
 .blog .continer .two {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/coran.jpg);
+    url(./Images/images/coran.jpg);
   filter: brightness(1.2);
 }
 
 .blog .continer .three {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/mosque.jpg);
+    url(./Images/images/mosque.jpg);
   background-position: top;
 }
 
 .blog .continer .four {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/salat.jpg);
+    url(./Images/images/salat.jpg);
 }
 
 .blog .continer .five {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/star.jpg);
+    url(./Images/images/star.jpg);
 }
 
 .blog .continer .sex {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
-    url(/Images/images/window-inside.jpg);
+    url(./Images/images/window-inside.jpg);
 }
 
 .blog .continer .info {
