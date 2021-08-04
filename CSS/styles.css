@@ -551,6 +551,7 @@ h2 {
 .fast-listen > h1 {
   color: var(--Main-Color-White);
   padding-top: 60px;
+  margin: 0;
 }
 
 .fast-listen span {
@@ -591,6 +592,135 @@ h2 {
 
 /* Start Blog */
 
+.blog {
+  background-color: var(--Main-Color-Grey-Battleship);
+  text-align: center;
+}
+
+.blog .continer {
+  padding: 60px 4%;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog h1 {
+  padding-top: 60px;
+}
+.blog .continer .box {
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 0 0 1.5rem 0;
+  box-shadow: 0 0 20px 16px #0000001f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: right;
+  position: relative;
+}
+
+.blog .continer .box:hover {
+  transform: scale(102%, 102%);
+}
+
+.blog .continer .large-box {
+  width: 580px;
+  flex-shrink: 1;
+}
+.blog .continer .small-box {
+  width: 450px;
+}
+
+.blog .continer .one {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/coran-zoom.jpg);
+}
+
+.blog .continer .two {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/coran.jpg);
+  filter: brightness(1.2);
+}
+
+.blog .continer .three {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/mosque.jpg);
+  background-position: top;
+}
+
+.blog .continer .four {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/salat.jpg);
+}
+
+.blog .continer .five {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/star.jpg);
+}
+
+.blog .continer .sex {
+  background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
+    url(/Images/images/window-inside.jpg);
+}
+
+.blog .continer .info {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  right: 30px;
+}
+.blog .continer .info h2 {
+  color: var(--Main-Color-White);
+  font-size: 17px;
+}
+
+.blog .continer .info h3 {
+  color: orangered;
+  font-size: 14px;
+}
+.blog .continer .info p {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 13px;
+}
+.blog input {
+  background-color: var(--Main-Color-Orange-Aerospace);
+  color: var(--Main-Color-Grey-Battleship);
+  transition: 1s;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.blog input:hover {
+  background-color: var(--Main-Color-Black);
+  color: var(-);
+}
+
+@media (max-width: 1159px) {
+  .blog .continer .large-box {
+    width: 650px;
+    flex-shrink: 1;
+  }
+
+  .blog .continer .small-box {
+    width: 650px;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 550px) {
+  .blog .continer .info h2 {
+    font-size: 15px;
+  }
+  .blog .continer .info h3 {
+    font-size: 12px;
+  }
+  .blog .continer .info p {
+    font-size: 11px;
+  }
+}
 /* End Blog */
 
 /* Start Footer  */
