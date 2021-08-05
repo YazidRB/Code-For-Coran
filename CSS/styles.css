@@ -65,6 +65,16 @@ header::before {
   animation-timing-function: linear;
 }
 
+.line {
+  border-color: var(--Main-Color-Grey-Battleship);
+  opacity: 0.2;
+  margin: 50px auto;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 75%;
+}
+
 header::after {
   content: "";
   border-radius: 50%;
@@ -506,7 +516,7 @@ header .header-body .continer .header-body-text input:hover {
   border: 1px solid var(--Main-Color-Grey-Battleship);
   padding: 15px;
   flex-basis: 380px;
-  height: 480px;
+  height: 510px;
 }
 
 .hadith .continer .box i {

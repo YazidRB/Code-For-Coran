@@ -1,0 +1,57 @@
+:root {
+  /* Main Project Colors */
+  --Main-Color-Black: rgb(0, 0, 0);
+  --Main-Color-White: #fff;
+  --Main-Color-Orange-Aerospace: #c44206;
+  --Main-Color-Grey-Battleship: #a5a89c;
+  --Main-Color-Red-Blood: #690003;
+  /* Fonts Sizes  */
+  --size-Extra-light: 200;
+  --size-Regular: 400;
+  --size-Bold: 700;
+  --size-Extra-Bold: 800;
+  /* Right ot left Direction   */
+  direction: rtl;
+}
+
+.tafsir-body .continer {
+  padding: 100px 5rem;
+}
+
+.tafsir-body .continer h1 {
+  color: var(--Main-Color-Orange-Aerospace);
+  font-size: 3.2rem;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.tafsir-body .continer h2 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.tafsir-body .continer .maksad-sourah p {
+  text-align: center;
+}
+
+.tafsir-body .continer p {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 1.8rem;
+}
+.tafsir-body .continer li {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 1.8rem;
+}
+
+.tafsir-body .continer .tafsir-text ul li {
+  list-style-type: decimal;
+}
+
+.tafsir-body .continer .tafsir-text ul li {
+  padding: 1rem;
+}
+.tafsir-body .continer .tafsir-text ul li ul li {
+  padding-right: 7rem;
+  font-size: 1.4rem;
+  list-style-position: inside;
+}

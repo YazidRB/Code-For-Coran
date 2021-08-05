@@ -30,3 +30,13 @@
   color: var(--Main-Color-Orange-Aerospace);
   font-size: 40px;
 }
+
+.line {
+  border-color: var(--Main-Color-Grey-Battleship);
+  opacity: 0.2;
+  margin: 50px auto;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 75%;
+}

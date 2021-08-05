@@ -1,0 +1,151 @@
+:root {
+  /* Main Project Colors */
+  --Main-Color-Black: rgb(0, 0, 0);
+  --Main-Color-White: #fff;
+  --Main-Color-Orange-Aerospace: #c44206;
+  --Main-Color-Grey-Battleship: #a5a89c;
+  --Main-Color-Red-Blood: #690003;
+  /* Fonts Sizes  */
+  --size-Extra-light: 200;
+  --size-Regular: 400;
+  --size-Bold: 700;
+  --size-Extra-Bold: 800;
+  /* Right ot left Direction   */
+  direction: rtl;
+}
+
+.surah .continer {
+  padding: 60px 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.surah .continer h1 {
+  color: var(--Main-Color-Grey-Battleship);
+}
+.surah .continer h1 i {
+  padding-left: 10px;
+  font-size: 40px;
+  color: var(--Main-Color-Grey-Battleship);
+}
+.surah-name {
+  color: var(--Main-Color-Orange-Aerospace);
+}
+
+.surah .continer img {
+  width: 280px;
+}
+
+.surah .continer ul {
+  list-style: none;
+  margin: 40px;
+}
+
+.surah .continer ul .aya {
+  display: inline-block;
+  color: var(--Main-Color-Grey-Battleship);
+  filter: brightness(0.65);
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+.surah .continer ul .aya label {
+  color: orangered;
+}
+
+.surah .continer p {
+  font-size: 25px;
+  background-color: var(--Main-Color-Orange-Aerospace);
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.surah .continer p a {
+  color: var(--Main-Color-Grey-Battleship);
+  text-decoration: none;
+  position: relative;
+}
+.surah .continer p a::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: var(--Main-Color-Grey-Battleship);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 31px;
+  width: 0%;
+}
+.surah .continer p a:hover::before {
+  width: 100%;
+}
+
+.surah-info {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.surah-info .continer {
+  padding: 60px 5% 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+.surah-info h1 {
+  color: var(--Main-Color-Grey-Battleship);
+}
+
+.surah-info .continer .info-box {
+  padding: 3rem;
+  border: 1px solid var(--Main-Color-Grey-Battleship);
+  text-align: center;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.surah-info .continer .info-box .question h1 {
+  color: var(--Main-Color-Black);
+  opacity: 0.8;
+  margin: 0 0 20px 0;
+}
+.surah-info .continer .info-box .question i {
+  color: var(--Main-Color-Orange-Aerospace);
+  font-size: 2rem;
+}
+
+.surah-info .continer .info-box .answer p {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 1.2rem;
+}
+
+/* End Surah Info  */
+
+/* Start Tafasir  */
+.tafsir .continer {
+  padding: 0% 8rem 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  flex-direction: column;
+}
+
+.tafsir .continer h1 {
+  color: var(--Main-Color-Grey-Battleship);
+}
+.tafsir .continer a {
+  color: var(--Main-Color-Orange-Aerospace);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.tafsir .continer a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+/* End  Tafasir  */
