@@ -34,6 +34,7 @@
 .line {
   border-color: var(--Main-Color-Grey-Battleship);
   opacity: 0.2;
+  filter: brightness(0);
   margin: 50px auto;
   border-bottom-color: transparent;
   border-left-color: transparent;

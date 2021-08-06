@@ -126,7 +126,7 @@ header::after {
 }
 
 header .nav-bar {
-  border-bottom-left-radius: 5%;
+  border-bottom-left-radius: 26%;
   border-bottom-right-radius: 47%;
   background-color: var(--Main-Color-Black);
   position: sticky;
@@ -393,7 +393,7 @@ header .nav-bar .continer ul .hadith-link a:hover {
 header .header-body {
   max-height: 100%;
   background-image: linear-gradient(
-      var(--Main-Color-Black) 71%,
+      var(--Main-Color-White) 71%,
       var(--Main-Color-Orange-Aerospace) 20%
     ),
     url();
@@ -447,11 +447,15 @@ header .header-body .continer .header-body-text {
 
 header .header-body .continer .header-body-text h1 {
   font-size: 800;
+  color: var(--Main-Color-Grey-Battleship);
+  filter: brightness(0.3);
 }
 
 header .header-body .continer .header-body-text p {
   font-weight: 400;
   padding: 0 10px;
+  color: var(--Main-Color-Grey-Battleship);
+  filter: brightness(0.45);
 }
 
 header .header-body .continer .header-body-text p {
@@ -537,6 +541,52 @@ header .header-body .continer .header-body-text input:hover {
 }
 
 /* End Surah's  */
+
+/* Start Next Salat */
+
+.next-salat {
+  align-items: center;
+}
+.next-salat .continer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 5px 0px;
+  flex-direction: column;
+}
+
+.next-salat .continer h1 {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 2.5rem;
+}
+.next-salat .continer h4 {
+  color: var(--Main-Color-Grey-Battleship);
+}
+.next-salat .continer iframe {
+  border: none;
+  overflow: hidden;
+  margin-top: 40px;
+  width: 50%;
+  height: 270px;
+}
+
+@media (max-width: 558px) {
+  .next-salat .continer h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .next-salat .continer h1 span {
+    font-size: 1.4rem;
+  }
+  .next-salat .continer h4 {
+    font-size: 0.8rem;
+  }
+  .next-salat .continer iframe {
+    width: 70%;
+  }
+}
+
+/* End Next Salat */
 
 /* Start Hadith */
 
