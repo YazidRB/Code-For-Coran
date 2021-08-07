@@ -471,7 +471,7 @@ header .header-body .continer .header-body-text p:last-of-type {
 header .header-body .continer .header-body-text input {
   margin: 24px;
   cursor: pointer;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 
 header .header-body .continer .header-body-text input:hover {
@@ -525,7 +525,7 @@ header .header-body .continer .header-body-text input:hover {
   color: var(--Main-Color-White);
   margin: 0 5px;
   font-size: 18px;
-  transition: 0.45s;
+  transition: 0.3s;
 }
 
 .list-of-surah .continer .surah a:hover {
@@ -636,7 +636,7 @@ h2 {
   margin: 20px auto 5px;
 }
 .hadith input {
-  transition: 1s;
+  transition: 0.3s;
   margin-bottom: 30px;
 }
 
@@ -724,13 +724,14 @@ h2 {
   background-position: center;
   height: 400px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: transform 0.5s;
   text-align: right;
   position: relative;
 }
 
 .blog .continer .box:hover {
   transform: scale(102%, 102%);
+  filter: brightness(1.05);
 }
 
 .blog .continer .large-box {
@@ -749,7 +750,6 @@ h2 {
 .blog .continer .two {
   background-image: linear-gradient(transparent 41%, var(--Main-Color-Black)),
     url(../Images/images/coran.jpg);
-  filter: brightness(1.2);
 }
 
 .blog .continer .three {
@@ -795,7 +795,7 @@ h2 {
 .blog input {
   background-color: var(--Main-Color-Orange-Aerospace);
   color: var(--Main-Color-Grey-Battleship);
-  transition: 1s;
+  transition: 0.3s;
   cursor: pointer;
   margin-bottom: 60px;
 }
