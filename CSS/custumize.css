@@ -8,17 +8,17 @@
   /* Main Project Colors */
 }
 .my-button {
-  border-radius: 50px;
+  border-radius: 24px;
   width: 200px;
-  height: 35px;
-  border: none;
+  height: 38px;
   background-color: var(--Main-Color-Grey-Battleship);
-  box-shadow: 0px 5px 18px #000000b0;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  border: 1px solid transparent;
   color: var(--Main-Color-Black);
 }
 
 .my-button2 {
-  border: 1px solid #585a5383;
+  border: 1px solid var(--Main-Color-White);
   padding: 4px 35px;
   text-align: center;
   border-radius: 6px;
@@ -40,4 +40,24 @@
   border-left-color: transparent;
   border-right-color: transparent;
   width: 75%;
+}
+
+.juz {
+  font-family: "QuranFont", QuranFont;
+  background-color: #213769;
+  color: #cbd6f1;
+  display: block;
+  margin: 20px 45px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.hizb {
+  font-family: "QuranFont", QuranFont;
+  background-color: #213769;
+  color: #cbd6f1;
+  display: block;
+  margin: 20px 45px;
+  font-size: 1rem;
+  text-align: center;
 }
