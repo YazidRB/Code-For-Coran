@@ -18,7 +18,7 @@
 }
 
 .my-button2 {
-  border: 1px solid var(--Main-Color-White);
+  border: 1px solid var(--Main-Color-Black);
   padding: 4px 35px;
   text-align: center;
   border-radius: 6px;
