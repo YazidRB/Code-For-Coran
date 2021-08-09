@@ -8,13 +8,14 @@
   /* Main Project Colors */
 }
 .my-button {
-  border-radius: 24px;
+  border-radius: 5px;
   width: 200px;
   height: 38px;
   background-color: var(--Main-Color-Grey-Battleship);
   box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-  border: 1px solid transparent;
-  color: var(--Main-Color-Black);
+  border: 1px solid var(--Main-Color-Black);
+  color: var(--Main-Color-white);
+  z-index: 1;
 }
 
 .my-button2 {

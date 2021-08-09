@@ -128,9 +128,10 @@ header::after {
 header .nav-bar {
   border-bottom-left-radius: 26%;
   border-bottom-right-radius: 47%;
-  background-color: var(--Main-Color-Black);
+  background-color: rgba(0, 0, 0, 0.87);
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 header .nav-bar .continer {
@@ -471,12 +472,16 @@ header .header-body .continer .header-body-text p:last-of-type {
 header .header-body .continer .header-body-text input {
   margin: 24px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.1s;
+  position: relative;
+  font-size: 18px;
+  color: var(--Main-Color-Black);
+  background-color: var(--Main-Color-Grey-Battleship);
 }
 
 header .header-body .continer .header-body-text input:hover {
-  color: var(--Main-Color-Grey-Battleship);
   background-color: var(--Main-Color-Black);
+  color: var(--Main-Color-White);
 }
 
 @media (max-width: 558px) {
@@ -636,13 +641,14 @@ h2 {
   margin: 20px auto 5px;
 }
 .hadith input {
-  transition: 0.3s;
+  transition: 0.1s;
+  color: var(--Main-Color-Black);
   margin-bottom: 30px;
 }
 
 .hadith input:hover {
   background-color: var(--Main-Color-Black);
-  color: var(--Main-Color-Grey-Battleship);
+  color: var(--Main-Color-White);
   cursor: pointer;
 }
 
@@ -793,15 +799,15 @@ h2 {
   font-size: 13px;
 }
 .blog input {
-  background-color: var(--Main-Color-Orange-Aerospace);
-  color: var(--Main-Color-Grey-Battleship);
-  transition: 0.3s;
+  background-color: transparent;
+  color: var(--Main-Color-Black);
+  transition: 0.1s;
   cursor: pointer;
   margin-bottom: 60px;
 }
 .blog input:hover {
   background-color: var(--Main-Color-Black);
-  color: var(-);
+  color: var(--Main-Color-White);
 }
 
 @media (max-width: 1159px) {
