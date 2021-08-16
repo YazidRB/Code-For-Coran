@@ -1,0 +1,60 @@
+:root {
+  /* Main Project Colors */
+  --Main-Color-Black: rgb(0, 0, 0);
+  --Main-Color-White: #fff;
+  --Main-Color-Orange-Aerospace: #c44206;
+  --Main-Color-Grey-Battleship: #a5a89c;
+  --Main-Color-Red-Blood: #690003;
+  /* Fonts Sizes  */
+  --size-Extra-light: 200;
+  --size-Regular: 400;
+  --size-Bold: 700;
+  --size-Extra-Bold: 800;
+  /* Right ot left Direction   */
+  direction: rtl;
+}
+
+.whome {
+  padding: 10%;
+}
+.whome .continer {
+  text-align: center;
+}
+
+.continer .qanda {
+  display: flex;
+  flex-direction: var(--Main-Color-Black);
+  justify-content: center;
+}
+
+.whome .continer h1 {
+  color: var(--Main-Color-Grey-Battleship);
+  font-size: 2.5rem;
+}
+.whome .continer .discreption {
+  color: var(--Main-Color-Black);
+  margin: 70px 10px;
+}
+
+.whome .continer .discreption p {
+  color: var(--Main-Color-Black);
+  line-height: 2.4rem;
+}
+
+.whome .continer .qanda ul {
+  width: 40%;
+  display: flex;
+  color: var(--Main-Color-Black);
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.whome .continer .qanda ul li {
+  color: var(--Main-Color-Black);
+  margin: 10px;
+}
+
+.whome .continer .qanda .questions li {
+  color: var(--Main-Color-Orange-Aerospace);
+}

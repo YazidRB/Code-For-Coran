@@ -5,6 +5,7 @@
   --Main-Color-Orange-Aerospace: #c44206;
   --Main-Color-Grey-Battleship: #a5a89c;
   --Main-Color-Red-Blood: #690003;
+  --Main-Color-Dark-Blue: #213769;
   /* Fonts Sizes  */
   --size-Extra-light: 200;
   --size-Regular: 400;
@@ -56,8 +57,9 @@
 
 .surah .continer p {
   font-size: 25px;
-  background-color: var(--Main-Color-Orange-Aerospace);
-  width: 40%;
+  background-color: var(--Main-Color-Dark-Blue);
+  width: 29%;
+  height: 40px;
   border-radius: 5px;
   margin-top: 10px;
 }
